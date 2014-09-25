@@ -79,7 +79,7 @@
 * Resources
 
   - this
-    {url}
+    http://bit.ly/tri-imm
   - demo app
     https://github.com/immutant/feature-demo/tree/thedeuce
   - Immutant
