@@ -1,0 +1,97 @@
+#+Title: Introduction to Immutant 2
+#+Author: Toby Crawley
+#+Date: 2014/09/25
+#+EPRESENT_FRAME_LEVEL: 1
+
+* Who am I?
+  - [[https://github.com/tobias/][Toby Crawley]] / [[http://twitter.com/tcrawley][@tcrawley]]
+  - [[http://jboss.org/][JBoss]], a division of [[http://redhat.com/][Red Hat]]
+  - [[http://immutant.org/][Immutant]] / [[http://torquebox.org/][TorqueBox]]
+
+* Ask away!
+
+* What is Immutant?
+
+  [[file:gil.png]]
+
+  - 1.x: Application server built on
+    JBoss AS
+  - 2.x: Collection of jars that provide
+    similar services
+
+* Why the change?
+
+  - a more traditional workflow
+    (no install step)
+    - application server optional
+  - avoids a plethora of AS issues
+  - support multiple AS versions
+  - easier to support
+
+* Other changes
+
+  - consistent API
+  - less cruft
+  - usable as uberjar
+  - LGPL -> ASL
+  - lein plugin only required to deploy to
+    app server
+  - wunderboss
+
+* Features
+
+  - web ([[http://undertow.io][Undertow]])
+    - websockets
+  - messaging ([[http://hornetq.org/][HornetQ]])
+  - scheduling ([[http://quartz-scheduler.org/][Quartz]])
+  - caching ([[http://infinispan.org/][Infinispan]])
+  - distributed transactions
+    (in-container soon, maybe out as well)
+
+* Benchmarks
+
+  https://github.com/ptaoussanis/clojure-web-server-benchmarks
+
+  [[file:bench.png]]
+
+* Micro-benchmarks are only worth so much
+
+  The benchmark that matters is the one
+  with /your/ workload.
+
+* Feature demo
+
+* Coming soon
+
+  - Sente support?
+  - SockJS support?
+  - Distributed transactions
+
+* Roadmap
+
+  - 1.1.5 if needed
+  - 2.0.0.alpha1 out now
+  - 2.0.0.alpha2 mid-October
+  - 2.0.0 later this year
+  - Incrementals available now at
+    http://immutant.org/builds/2x/
+
+* Resources
+
+  - this
+    {url}
+  - demo app
+    https://github.com/immutant/feature-demo/tree/thedeuce
+  - Immutant
+    http://immutant.org
+  - 1.x -> 2.x migration guide
+    https://github.com/immutant/immutant/blob/thedeuce/docs/migration-guide.md
+  - WildFly
+    [[http://wildfly.org]]
+  - Stickers!
+
+* Questions?
+
+  [[file:hands-scaled.png]]
+
+  http://www.flickr.com/photos/coldtaxi/426162862/
